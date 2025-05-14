@@ -1,0 +1,1 @@
+define({availablePdf: ["Alzheimers","BoneFracture","BrainTumor","Caries","Covid19","Glaucoma","LungCancer","MitralValve","Parkinsons","Pneumonia"]});

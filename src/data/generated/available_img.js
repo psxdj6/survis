@@ -1,0 +1,1 @@
+define({ availableImg: ["Alzheimers","Beck2016Visual","BoneFracture","BrainTumor","Caries","Covid19","Glaucoma","LungCancer","MitralValve","Parkinsons","Pneumonia"]});

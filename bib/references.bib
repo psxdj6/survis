@@ -1,0 +1,135 @@
+@INPROCEEDINGS{LungCancer,
+abstract = {Lung cancer is one of the most prevalent and deadly cancer kinds. CT scan imaging has made it easier to observe in- depth at different lung cancer conditions. Convolutional Neural Networks have already been utilized for detecting objects in images. This research implements a lightweight CNN architecture in classifying two types of cancerous images and distinguishingthem from healthy ones. AlexNet, ResNet101 V2, DenseNet201,MobileNet V2, and other sizable deep learning and transferlearning models were tested against this unique architecturewith global max pooling. The proposed CNN model overlapsin performance with much bigger models whilst using abouteight times fewer parameters, thus being efficient. Apart frommaking the architecture smaller, Grad-CAM was used to explainthe convolutional flow over different convolution layers. Thisintegration of the Grad-CAM technique into the analysis adds acrucial layer of transparency to the deep-learning models. By vi-sualizing the regions within lung cancer images that significantlyinfluence predictions, we aim to enhance the interpretabilityof our model, fostering trust and better understanding amonghealthcare professionals.},
+author = {Muntasir, Fahim and Datta, Ayon and Mahmud, Shakib},
+booktitle={2024 6th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT)}, 
+title={Interpreting Multiclass Lung Cancer from CT Scans using Grad-CAM on Lightweight CNN Layers}, 
+publisher = {IEEE},
+year={2024},
+pages={208-213},
+keywords={type:Deep learning, Visualization, Computed tomography, Transfer learning, Lung cancer, Medical services, Predictive models, Grad-CAM;Lightweight CNN, CT Scan Imaging, Lung Cancer;Transfer Learning},
+doi={10.1109/ICEEICT62016.2024.10534491},
+url = {https://ieeexplore.ieee.org/document/10534491},
+}
+
+@INPROCEEDINGS{BrainTumor,
+abstract = {This study addresses the critical challenge of detecting brain tumors using MRI images, a pivotal task in medical diagnostics that demands high accuracy and interpretability. While deep learning has shown remarkable success in medical image analysis, there remains a substantial need for models that are not only accurate but also interpretable to healthcare professionals. The existing methodologies, predominantly deep‑learning‑based, often act as black boxes, providing little insight into their decision‑making process. This research introduces an integrated approach using ResNet50, a deep learning model, combined with Gradient‑weighted Class Activation Mapping (Grad‑CAM) to offer a transparent and explainable framework for brain tumor detection. We employed a dataset of MRI images, enhanced through data augmentation, to train and validate our model. The results demonstrate a significant improvement in model performance, with a testing accuracy of 98.52 % and precision–recall metrics exceeding 98 %, showcasing the model’s effectiveness in distinguishing tumor presence. The application of Grad‑CAM provides insightful visual explanations, illustrating the model’s focus areas in making predictions. This fusion of high accuracy and explainability holds profound implications for medical diagnostics, offering a pathway towards more reliable and interpretable brain‑tumor‑detection tools.},
+author = {M, Mohamed Musthafa and T. R, Mahesh and V, Vinoth Kumar and Guluwadi, Suresh},
+booktitle = {BMC Medical Imaging},
+title = {Enhancing Brain Tumor Detection in MRI Images through Explainable AI Using Grad-CAM with ResNet50},
+publisher = {BioMed Central},
+year = {2024},
+pages = {107},
+url = {https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-024-01292-7},
+volume = {24},
+keywords = {type: brain tumor detection, MRI, explainable AI, Grad-CAM, ResNet50},
+doi = {10.1186/s12880-024-01292-7},
+}
+
+@article{BoneFracture,
+title = {FracNet: An end-to-end deep learning framework for bone fracture detection},
+journal = {Pattern Recognition Letters},
+volume = {190},
+pages = {1-7},
+year = {2025},
+issn = {0167-8655},
+doi = {https://doi.org/10.1016/j.patrec.2025.01.034},
+url = {https://www.sciencedirect.com/science/article/pii/S0167865525000340},
+author = {Haider A. Alwzwazy and Laith Alzubaidi and Zehui Zhao and Yuantong Gu},
+keywords = {type: Deep learning, Fracture detection, Feature fusion, Attention mechanisms, Medical imaging},
+abstract = {Fracture detection in medical imaging is crucial for accurate diagnosis and treatment planning in orthopaedic care. Traditional deep learning (DL) models often struggle with small, complex, and varying fracture datasets, leading to unreliable results. We propose FracNet, an end-to-end DL framework specifically designed for bone fracture detection using self-supervised pretraining, feature fusion, attention mechanisms, feature selection, and advanced visualisation tools. FracNet achieves a detection accuracy of 100% on three datasets, consistently outperforming existing methods in terms of accuracy and reliability. Furthermore, FracNet improves decision transparency by providing clear explanations of its predictions, making it a valuable tool for clinicians. FracNet provides high adaptability to new datasets with minimal training requirements. Although its primary focus is fracture detection, FracNet is scalable to various other medical imaging applications.}
+}
+
+@INPROCEEDINGS{Covid19,
+author={Karim, Md. Rezaul and Döhmen, Till and Cochez, Michael and Beyan, Oya and Rebholz-Schuhmann, Dietrich and Decker, Stefan},
+booktitle={2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
+title={DeepCOVIDExplainer: Explainable COVID-19 Diagnosis from Chest X-ray Images}, 
+abstract = {In this paper1, we proposed an explainable deepneural networks (DNN)-based method for automatic detectionof COVID-19 symptoms from chest radiography (CXR) images,which we call DeepCOVIDExplainer. We used 15,959 CXRimages of 15,854 patients, covering normal, pneumonia, andCOVID-19 cases. CXR images are first comprehensively prepro-cessed and augmented before classifying with a neural ensemblemethod, followed by highlighting class-discriminating regionsusing gradient-guided class activation maps (Grad-CAM++) andlayer-wise relevance propagation (LRP). Further, we providehuman-interpretable explanations for the diagnosis. Evaluationresults show that our approach can identify COVID-19 caseswith a positive predictive value (PPV) of 91.6%, 92.45%, and96.12%, respectively for normal, pneumonia, and COVID-19cases, respectively, outperforming recent approaches.Index Terms—COVID-19, Biomedical imaging, Deep learning,Explainability, Grad-CAM, Layer-wise relevance propagation.},
+year={2020},
+publisher = {IEEE},
+url = {https://ieeexplore.ieee.org/document/9313304},
+pages={1034-1037},
+keywords={type: COVID-19, Lung, Predictive models, Visualization, Reliability, X-ray imaging, Training, COVID-19, Biomedical imaging, Deep learning, Explainability, Grad-CAM;Layer-wise relevance propagation},
+doi={10.1109/BIBM49941.2020.9313304}
+}
+
+@INPROCEEDINGS{MitralValve,
+abstract = {Carpentiers functional classification is a guide to explain the types of mitral-valve regurgitation based on morphological features. There are four types of pathological morphologies, regardless of the presence or absence of mitral regurgitation: Type I, normal; Type II, mitral-valve prolapse; Type IIIa, mitral-valve stenosis; and Type IIIb, restricted mitral leaflet motion. The aim of this study was to automatically classify mitral valves using echocardiographic images.},
+author = {Majid Vafaeezadeh and Hamid Behnam and Ali Hosseinsabet and Parisa Gifani},
+booktitle = {International Journal of Computer Assisted Radiology and Surgery},
+title = {Automatic Morphological Classification of Mitral Valve Diseases in Echocardiographic Images Based on Explainable Deep Learning Methods},
+publisher = {Springer},
+year = {2022},
+url = {https://link.springer.com/article/10.1007/s11548-021-02542-7},
+pages = {413--425},
+volume = {17},
+keywords = {type: mitral valve, echocardiography, morphological classification, explainable deep learning},
+doi = {10.1007/s11548-021-02542-7}
+}
+
+@article{Parkinsons,
+title = {An analysis of data leakage and generalizability in MRI based classification of Parkinson's Disease using explainable 2D Convolutional Neural Networks},
+journal = {Digital Signal Processing},
+volume = {147},
+pages = {104407},
+year = {2024},
+issn = {1051-2004},
+doi = {https://doi.org/10.1016/j.dsp.2024.104407},
+url = {https://www.sciencedirect.com/science/article/pii/S1051200424000320},
+author = {Iswarya Kannoth Veetil and Divi Eswar Chowdary and Paleti Nikhil Chowdary and V. Sowmya and E.A. Gopalakrishnan},
+keywords = {type: Parkinson's Disease, Magnetic Resonance Imaging (MRI), Convolutional Neural Network (CNN), Explainable Artificial Intelligence (XAI), Data leakage, Generalizability},
+abstract = {Parkinson's Disease (PD) is a progressive neurological disorder caused by the death of dopamine producing neurons. Neuroimaging techniques such as Magnetic Resonance Imaging (MRI) allows the visualization of the structural changes in the brain due to PD. Advances in computer vision has led to a new area of research that combines the expertise of deep learning (DL) tools such as Convolutional Neural Networks (CNN) to detect PD from MRI. Despite the promising results obtained, the clinical integration of the DL models is held back by questions of bias, generalizability and explainability. In the present work the identification of bias propagation is carried out through an analysis of data leakage and generalizability of T1 weighted MRI data driven CNN models. For the same, 12 diverse pre-trained CNN models were trained on T1 weighted MRI from the PPMI dataset. Of these, the top 3 models were tested on three different datasets under three simulated cases of data leakage - Subject-wise split, slice-wise split and longitudinal split. A Grad-CAM based visualization was implemented to visualize and explain the output from the CNN without data leakage, and identify regions of importance (ROI) in the brain. Results from the data leakage simulation revealed that slice level data leakage and longitudinal data leakage can result in over 67% and 30% inflation of accuracy score in hold out test sets. Testing the generalizability of the CNN models to external patient cohorts was able to capture the implicit bias due to data leakage and enable the selection of the most robust CNN architecture. The VGG19 model displayed a consistent performance when tested within the PPMI dataset and the external datasets. The results from the explainable artificial intelligence analysis revealed the identified ROIs were significant with the expected disease progression, validating the proposed method. The study presents the possible avenues of bias propagation in the MRI data driven classification using CNN models through a simulation of data leakage and by testing the generalizability of the models. The study highlights the need for generalizability and the importance of the testing with heterogeneous populations in ensuring the robustness of the developed models, and in capturing any data mishandling oversights and associated bias. The results suggest that the pre-trained VGG19 model can be used to create a generalizable and explainable model to aid in the detection of PD from T1 weighted MRI.}
+}
+
+@INPROCEEDINGS{Pneumonia,
+author={K, Jitha and P, Mohammed Waleed and K, Navas and CM, Nihad Ahmed and CP, Najiya Nasrin},
+booktitle={2023 International Conference on Innovations in Engineering and Technology (ICIET)}, 
+title={Deep Learning and Grad-CAM for the Diagnosis of Pneumonia Based on X-Rays}, 
+year={2023},
+pages={1-5},
+publisher = {IEEE},
+doi = {10.1109/ICIET57285.2023.10220839},
+url = {https://ieeexplore.ieee.org/document/10220839},
+keywords={type: Deep learning, Learning systems, Visualization, Technological innovation, Pulmonary diseases, Predictive models, Convolutional neural networks, Convolutional Neural Network (CNN), GradCAM, Deep Learning, X-ray images, Pneumonia},
+abstract={Millions of people throughout the world suffer frompneumonia, an extremely serious respiratory disease. An earlyand accurate diagnosis is crucial for the quick and effectivetreatment of pneumonia. Deep learning approaches have recentlydemonstrated promise in the recognition of medical imaging,particularly X-ray pictures. We propose deep learning-basedmethod for recognising pneumonia from X-ray pictures in thispaper. To categorise photos, we employ a convolutional neuralnetwork (CNN), and the Grad-CAM method visualises themodels predictions. The results of our investigation indicatethat our proposed approach may successfully and reliably detectpneumonia in X-ray images and provide visual reasons forthe predictions. By increasing the effectiveness and precision ofpneumonia diagnosis, the application of this methodology has thepotential to have a substantial impact on the medical industry.}
+}
+
+@Article{Caries,
+AUTHOR = {Oztekin, Faruk and Katar, Oguzhan and Sadak, Ferhat and Yildirim, Muhammed and Cakar, Hakan and Aydogan, Murat and Ozpolat, Zeynep and Talo Yildirim, Tuba and Yildirim, Ozal and Faust, Oliver and Acharya, U. Rajendra},
+TITLE = {An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images},
+JOURNAL = {Diagnostics},
+VOLUME = {13},
+YEAR = {2023},
+url = {https://www.mdpi.com/2075-4418/13/2/226},
+keywords={type: caries, dental health, explainable deep models, deep learning, Grad-CAM},
+abstract = {Dental caries is the most frequent dental health issue in the general population. Dental caries can result in extreme pain or infections, lowering peoples quality of life. Applying machine learning models to automatically identify dental caries can lead to earlier treatment. However, physicians frequently find the model results unsatisfactory due to a lack of explainability. Our study attempts to address this issue with an explainable deep learning model for detecting dental caries. We tested three prominent pre-trained models, EfficientNet-B0, DenseNet-121, and ResNet-50, to determine which is best for the caries detection task. These models take panoramic images as the input, producing a caries-non-caries classification result and a heat map, which visualizes areas of interest on the tooth. The model performance was evaluated using whole panoramic images of 562 subjects. All three models produced remarkably similar results. However, the ResNet-50 model exhibited a slightly better performance when compared to EfficientNet-B0 and DenseNet-121. This model obtained an accuracy of 92.00%, a sensitivity of 87.33%, and an F1-score of 91.61%. Visual inspection showed us that the heat maps were also located in the areas with caries. The proposed explainable deep learning model diagnosed dental caries with high accuracy and reliability. The heat maps help to explain the classification results by indicating a region of suspected caries on the teeth. Dentists could use these heat maps to validate the classification results and reduce misclassification.},
+doi = {10.3390/diagnostics13020226},
+}
+
+@ARTICLE{Glaucoma,
+  author={Shyamalee, Thisara and Meedeniya, Dulani and Lim, Gilbert and Karunarathne, Mihipali},
+  journal={IEEE Access}, 
+  abstract={Glaucoma is a progressive eye condition that causes irreversible vision loss due to damageto the optic nerve. Recent developments in deep learning and the accessibility of computing resourceshave provided tool support for automated glaucoma diagnosis. Despite deep learning’s advances indisease diagnosis using medical images, generic convolutional neural networks are still not widely usedin medical practices due to the limited trustworthiness of these models. Although deep learning-basedglaucoma classification has gained popularity in recent years, only a few of them have addressed theexplainability and interpretability of the models, which increases confidence in using such applications. Thisstudy presents state-of-the-art deep learning techniques to segment and classify fundus images to predictglaucoma conditions and applies visualization techniques to explain the results to ease understandability.Our predictions are based on U-Net with attention mechanisms with ResNet50 for the segmentation processand a modified Inception V3 architecture for the classification. Attention U-Net with modified ResNet50backbone obtained 99.58% and 98.05% accuracies for optic disc segmentation and optic cup segmentation,respectively for the RIM-ONE dataset. Additionally, we generate heatmaps that highlight the regions thatimpacted the glaucoma diagnosis using both Gradient-weighted Class Activation Mapping (Grad-CAM) andGrad-CAM++. Our model that classifies the segmented images achieves accuracy, sensitivity, and specificityvalues of 98.97%, 99.42%, and 95.59%, respectively, with the RIM-ONE dataset. This model can be usedas a support tool for automated glaucoma identification using fundus images.},
+  title={Automated Tool Support for Glaucoma Identification With Explainability Using Fundus Images}, 
+  year={2024},
+  volume={12},
+  url = {https://ieeexplore.ieee.org/document/10416867/similar},
+  pages={17290-17307},
+  keywords={type: Glaucoma, Optical imaging;Biomedical optical imaging, Image segmentation, Optical sensors, Optical filters, Optical fibers, Artificial intelligence, classification, explainability, segmentation, support tool, trustworthiness},
+  doi={10.1109/ACCESS.2024.3359698}}
+
+@INPROCEEDINGS{Alzheimers,
+  author={Mansouri, Dhekra and Echtioui, Amira and Khemakhem, Rafik and Hamida, Ahmed Ben},
+  booktitle={2024 IEEE 7th International Conference on Advanced Technologies, Signal and Image Processing (ATSIP)}, 
+  title={Explainable AI Framework for Alzheimers Diagnosis Using Convolutional Neural Networks}, 
+  year={2024},
+  volume={1},
+  url = {https://ieeexplore.ieee.org/document/10639037},
+  pages={93-98},
+  abstract = {Alzheimer's disease (AD) stands as a form ofdementia characterized by the gradual degeneration of braincells, resulting in compromised memory, cognitive functions,and the loss of fundamental skills, ultimately leading to fatality.While a definitive cure for AD remains elusive, early detectionplays a pivotal role in managing its progression and enhancingthe quality of life for patients. This study delves into the realmof Alzheimer's disease identification through the application ofvarious Neural Network models employing classificationtechniques. Leveraging a contemporary hybrid dataset, theinvestigation yielded four distinct classifications. Moreover, thestudy delved into elucidating the specific brain regionscontributing to each classification using the Grad-CAM(Gradient-weighted Class Activation Mappings) based XAI(eXplainable Artificial Intelligence) framework applied topatients' MRI images. A comprehensive assessment wasconducted on pre-trained deep neural networks, particularlyfocusing on Convolutional Neural Network (CNN) modelstrained exclusively on authentic MRIs and a combination ofauthentic and synthetic MRIs. The efficacy of deep learning indisease detection was exemplified, with the CNN model trainedon both real and synthetic MRIs outperforming its counterparttrained solely on real MRIs. The former achieved animpressive accuracy of 97.50%, a Balanced Accuracy Score(BA) of 98.58%, and a Matthew's Correlation Coefficient(MCC) of 95.95%. In contrast, the model trained exclusivelyon real MRIs exhibited an accuracy of 88.98%, a BA of94.01%, and an MCC of 83.67%},
+  keywords={type: Correlation coefficient, Accuracy, Explainable AI, Magnetic resonance imaging, Brain modeling, Data models, Convolutional neural networks, Alzheimers disease, Grad-CAM, CNN, XAI framework, Real MRIs, Synthetic MRIs},
+  doi={10.1109/ATSIP62566.2024.10639037}}
+
+
+
+
+
